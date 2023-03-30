@@ -1,0 +1,445 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://scenes/Dino.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/Asset 1.png" type="Texture" id=2]
+[ext_resource path="res://scenes/DinoChrome.gd" type="Script" id=3]
+[ext_resource path="res://scenes/obstacle.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/bird.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/start.gd" type="Script" id=6]
+[ext_resource path="res://assets/Kenney Future Narrow.ttf" type="DynamicFontData" id=7]
+[ext_resource path="res://scenes/end.gd" type="Script" id=8]
+[ext_resource path="res://assets/Fundo.png" type="Texture" id=9]
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 7 )
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 160, 9 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10, 90 )
+
+[node name="Jogo" type="Node2D"]
+script = ExtResource( 3 )
+scene_obstacle = [ ExtResource( 4 ), ExtResource( 5 ) ]
+
+[node name="Fundo2" type="Sprite" parent="."]
+position = Vector2( 973, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo" type="Sprite" parent="."]
+position = Vector2( 1764, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo3" type="Sprite" parent="."]
+position = Vector2( 2553, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo4" type="Sprite" parent="."]
+position = Vector2( 3344, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo5" type="Sprite" parent="."]
+position = Vector2( 4134, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo6" type="Sprite" parent="."]
+position = Vector2( 4925, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo7" type="Sprite" parent="."]
+position = Vector2( 5716, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo8" type="Sprite" parent="."]
+position = Vector2( 6507, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo9" type="Sprite" parent="."]
+position = Vector2( 7296, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo10" type="Sprite" parent="."]
+position = Vector2( 8087, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo11" type="Sprite" parent="."]
+position = Vector2( 8877, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo12" type="Sprite" parent="."]
+position = Vector2( 9668, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo13" type="Sprite" parent="."]
+position = Vector2( 10458, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo14" type="Sprite" parent="."]
+position = Vector2( 11249, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo15" type="Sprite" parent="."]
+position = Vector2( 12038, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo16" type="Sprite" parent="."]
+position = Vector2( 12829, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo17" type="Sprite" parent="."]
+position = Vector2( 13619, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo18" type="Sprite" parent="."]
+position = Vector2( 14410, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo19" type="Sprite" parent="."]
+position = Vector2( 15201, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo20" type="Sprite" parent="."]
+position = Vector2( 15992, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo21" type="Sprite" parent="."]
+position = Vector2( 16781, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo22" type="Sprite" parent="."]
+position = Vector2( 17572, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo23" type="Sprite" parent="."]
+position = Vector2( 18362, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo24" type="Sprite" parent="."]
+position = Vector2( 19153, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo25" type="Sprite" parent="."]
+position = Vector2( 19945, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo26" type="Sprite" parent="."]
+position = Vector2( 20736, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo27" type="Sprite" parent="."]
+position = Vector2( 21525, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo28" type="Sprite" parent="."]
+position = Vector2( 22316, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo29" type="Sprite" parent="."]
+position = Vector2( 23106, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo30" type="Sprite" parent="."]
+position = Vector2( 23897, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo31" type="Sprite" parent="."]
+position = Vector2( 24688, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo32" type="Sprite" parent="."]
+position = Vector2( 25479, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo33" type="Sprite" parent="."]
+position = Vector2( 26268, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo34" type="Sprite" parent="."]
+position = Vector2( 27059, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo35" type="Sprite" parent="."]
+position = Vector2( 27849, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo36" type="Sprite" parent="."]
+position = Vector2( 28640, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo37" type="Sprite" parent="."]
+position = Vector2( 29430, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo38" type="Sprite" parent="."]
+position = Vector2( 30221, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo39" type="Sprite" parent="."]
+position = Vector2( 31010, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo40" type="Sprite" parent="."]
+position = Vector2( 31801, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo41" type="Sprite" parent="."]
+position = Vector2( 32591, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo42" type="Sprite" parent="."]
+position = Vector2( 33382, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo43" type="Sprite" parent="."]
+position = Vector2( 34173, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo44" type="Sprite" parent="."]
+position = Vector2( 34964, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo45" type="Sprite" parent="."]
+position = Vector2( 35753, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo46" type="Sprite" parent="."]
+position = Vector2( 36544, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="Fundo47" type="Sprite" parent="."]
+position = Vector2( 37334, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+
+[node name="Fundo48" type="Sprite" parent="."]
+position = Vector2( 38125, 171 )
+scale = Vector2( 0.411979, 0.175 )
+texture = ExtResource( 9 )
+offset = Vector2( -1426.04, -500 )
+flip_h = true
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 323, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 0, 162 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="obs_container" type="Node2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 160, 90 )
+current = true
+
+[node name="start" type="Label" parent="Camera2D"]
+pause_mode = 2
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -25.5
+margin_top = -9.0
+margin_right = 25.5
+margin_bottom = 9.0
+rect_pivot_offset = Vector2( 134, 45 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "START"
+align = 1
+valign = 1
+script = ExtResource( 6 )
+
+[node name="end" type="Label" parent="Camera2D"]
+pause_mode = 2
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -47.0
+margin_top = -9.0
+margin_right = 47.0
+margin_bottom = 9.0
+rect_pivot_offset = Vector2( 134, 45 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "game over"
+align = 1
+valign = 1
+script = ExtResource( 8 )
+
+[node name="Dino" parent="Camera2D" instance=ExtResource( 1 )]
+position = Vector2( -128, 22 )
+
+[node name="ground" type="StaticBody2D" parent="Camera2D"]
+position = Vector2( 0, 81 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Camera2D/ground"]
+shape = SubResource( 1 )
+
+[node name="obs_eraser" type="Area2D" parent="Camera2D"]
+position = Vector2( -180, 0 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Camera2D/obs_eraser"]
+shape = SubResource( 2 )
+
+[node name="score" type="Label" parent="Camera2D"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -150.0
+margin_top = -63.0
+margin_right = -106.0
+margin_bottom = -45.0
+rect_pivot_offset = Vector2( 134, 45 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "0000"
+
+[node name="hi_score" type="Label" parent="Camera2D"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -150.0
+margin_top = -79.0
+margin_right = 4.0
+margin_bottom = -61.0
+rect_pivot_offset = Vector2( 134, 45 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "High score : 0000"
+
+[node name="obs_pos" type="Position2D" parent="."]
+position = Vector2( 400, 162 )
+
+[node name="obs_y_pos_1" type="Position2D" parent="."]
+position = Vector2( 400, 142 )
+
+[node name="obs_y_pos_2" type="Position2D" parent="."]
+position = Vector2( 400, 122 )
+
+[connection signal="area_entered" from="Camera2D/obs_eraser" to="." method="_on_obs_eraser_area_entered"]
